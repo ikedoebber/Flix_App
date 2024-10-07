@@ -1,32 +1,57 @@
-# Flix_App 🎬
+# 🎥 Flix App
 
-Flix_App é uma aplicação desenvolvida para explorar, listar e gerenciar filmes e séries, oferecendo uma interface amigável e intuitiva para os usuários interagirem com seus conteúdos favoritos.
+[![Django](https://img.shields.io/badge/Django-3.2+-success?style=flat&logo=django&logoColor=white)](https://www.djangoproject.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-5-orange?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-Responsive-blue?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-## Funcionalidades principais
+**Flix App** é uma aplicação desenvolvida com Django para gerenciar um catálogo de filmes e séries. A aplicação utiliza HTML e CSS para exibir uma interface simples e funcional, onde usuários podem visualizar e explorar títulos disponíveis no catálogo.
 
-- 📜 **Listagem de filmes e séries**: Visualize uma vasta coleção de títulos com detalhes sobre cada um.
-- 🔍 **Busca inteligente**: Encontre rapidamente filmes e séries por nome, gênero, ou outros filtros.
-- 🌟 **Favoritos**: Marque seus títulos preferidos e acesse-os facilmente.
-- 📝 **Comentários e avaliações**: Deixe sua opinião sobre os filmes e séries assistidos.
-- 📊 **Recomendações**: Receba sugestões com base em seus interesses e interações.
-  
-## Tecnologias Utilizadas
+---
 
-Este projeto foi desenvolvido utilizando uma variedade de tecnologias para garantir uma aplicação moderna, eficiente e escalável:
+## 📖 Sobre
 
-### Backend
+O **Flix App** é uma aplicação que usa Django como framework backend para lidar com o gerenciamento de dados de filmes e séries, enquanto o frontend é composto por HTML5 e CSS3. Ele permite aos usuários visualizar informações detalhadas sobre os filmes, como sinopse, elenco, e avaliações diretamente através de uma interface responsiva e simples.
 
-- **Django**: Um framework web Python robusto e escalável, usado para gerenciar a lógica do servidor e banco de dados.
-- **Django REST Framework (DRF)**: Utilizado para construir a API que permite a comunicação entre o frontend e o backend.
-- **SQLite**: Banco de dados relacional utilizado no ambiente de desenvolvimento, podendo ser substituído por outros bancos no futuro (como PostgreSQL).
+---
 
-### Frontend
+## 🚀 Funcionalidades
 
-- **React.js**: Biblioteca JavaScript para criar interfaces de usuário interativas e responsivas.
-- **Axios**: Usado para realizar chamadas à API, possibilitando a comunicação entre o frontend e o backend.
+- **Exibir lista de filmes e séries**: Visualize títulos disponíveis no catálogo.
+- **Filtrar e buscar títulos**: Utilize a barra de busca para encontrar filmes e séries específicas.
+- **Visualizar detalhes**: Acesse informações detalhadas sobre os filmes, como sinopse, elenco e ano de lançamento.
 
-### Outros
+---
 
-- **JWT (JSON Web Token)**: Para autenticação segura dos usuários.
-- **Git**: Controle de versão, utilizado para gerenciar e colaborar no desenvolvimento do projeto.
-- **GitHub Actions**: Automação de testes e CI/CD.
+## 🛠️ Tecnologias Utilizadas
+
+- **[Django](https://www.djangoproject.com/)** - Framework backend para desenvolvimento web robusto.
+- **[HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)** - Linguagem de marcação usada para estruturar as páginas.
+- **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)** - Linguagem de estilo usada para criar o design e a responsividade da interface.
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são muito bem-vindas! Para contribuir:
+
+1. Faça um fork do projeto.
+2. Crie uma nova branch para sua feature (`git checkout -b minha-feature`).
+3. Faça commit das suas mudanças (`git commit -m 'Minha nova feature'`).
+4. Envie para sua branch (`git push origin minha-feature`).
+5. Abra um Pull Request.
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 🔚 Conclusão
+
+O **Flix App** é uma solução simples e eficiente para a navegação e gerenciamento de um catálogo de filmes e séries. Com Django no backend e HTML/CSS no frontend, ele é fácil de personalizar e adaptar a diferentes necessidades. Sinta-se à vontade para explorar, contribuir e utilizar este projeto como base para novos desenvolvimentos.
+
+---
+
+Desenvolvido com 💻 por [ikedoebber](https://github.com/ikedoebber)
